@@ -46,8 +46,8 @@ async function editUser(e) {
     const resText = await res.text();
     throw new Error(resText);
   } catch (error) {
-    document.querySelector("#errorMessageEdit"). innerText = error.message;
-    console. log(error);
+    document.querySelector("#errorMessageEdit").innerText = error.message;
+    console.log(error);
   }
 }
 
@@ -86,26 +86,3 @@ document.querySelectorAll(".delete-btn").forEach((btnConfirm) => {
     } = bs5dialog.confirm("Do you really want to delete this user?", options);
   });
 });
-
-async function editUser(e) {
-  e.preventDefault();
-  try {
-    const formData = new FormData(document.querySelector("#editUserForm"));
-    const data = Object.fromEntries(formData.entries());
-    const res = await fetch("/users", {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-    }); 
-    if (res.status == 200) {
-      return location. reload();
-    }
-    const resText = await res.text();
-    throw new Error(resText);
-  } catch (error) {
-    document.querySelector("#errorMessageEdit"). innerText = error.message;
-    console. log(error);
-  }
-}
