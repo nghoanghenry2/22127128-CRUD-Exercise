@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "db_22127128_crud_exercise_database_user",
-    "password": "q9Ef9XyWG1vV4DP8RiKaKvqecY3LsLTZ",
-    "database": "db_22127128_crud_exercise_database",
-    "host": "dpg-cth5la8gph6c73d8if2g-a",
+    "username": "db_22127128_crud_exercise_database_nosv_user",
+    "password": "lUYUq5eDNBrTFEhsb4Nvhgdxb70wFD0l",
+    "database": "db_22127128_crud_exercise_database_nosv",
+    "host": "dpg-cth601bgbbvc73a2fkl0-a",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -13,10 +13,10 @@
     }
   },
   "test": {
-   "username": "db_22127128_crud_exercise_database_user",
-    "password": "q9Ef9XyWG1vV4DP8RiKaKvqecY3LsLTZ",
-    "database": "db_22127128_crud_exercise_database",
-    "host": "dpg-cth5la8gph6c73d8if2g-a",
+   "username": "db_22127128_crud_exercise_database_nosv_user",
+    "password": "lUYUq5eDNBrTFEhsb4Nvhgdxb70wFD0l",
+    "database": "db_22127128_crud_exercise_database_nosv",
+    "host": "dpg-cth601bgbbvc73a2fkl0-a",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -26,10 +26,10 @@
     }
   },
   "production": {
-   "username": "db_22127128_crud_exercise_database_user",
-    "password": "q9Ef9XyWG1vV4DP8RiKaKvqecY3LsLTZ",
-    "database": "db_22127128_crud_exercise_database",
-    "host": "dpg-cth5la8gph6c73d8if2g-a",
+   "username": "db_22127128_crud_exercise_database_nosv_user",
+    "password": "lUYUq5eDNBrTFEhsb4Nvhgdxb70wFD0l",
+    "database": "db_22127128_crud_exercise_database_nosv",
+    "host": "dpg-cth601bgbbvc73a2fkl0-a",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
