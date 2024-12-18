@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "password",
-    "database": "sequelize_exercise",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "db_22127128_crud_exercise_database_user",
+    "password": "q9Ef9XyWG1vV4DP8RiKaKvqecY3LsLTZ",
+    "database": "db_22127128_crud_exercise_database",
+    "host": "dpg-cth5la8gph6c73d8if2g-a",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
